@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/opt/homebrew/Caskroom/miniforge/base/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/bhaveshgurnani/Desktop/deep-learning-col775/a1/resnet/src/train_resnet.py", line 369, in <module>
+    os.mkdir(args.result_dir)
+FileNotFoundError: [Errno 2] No such file or directory: 'results_temp/gn'
+gn
